@@ -92,8 +92,8 @@ class _CheckInPageState extends State<CheckInPage> {
       final lon = position.longitude;
 
       // 3) buat URL
-      final url =
-          Uri.parse("https://malay.djncloud.my.id/recommend?lat=$lat&lon=$lon");
+      final url = Uri.parse(
+          "https://pariwisata.djncloud.my.id/recommend?lat=$lat&lon=$lon");
 
       // 4) headers
       final headers = <String, String>{
